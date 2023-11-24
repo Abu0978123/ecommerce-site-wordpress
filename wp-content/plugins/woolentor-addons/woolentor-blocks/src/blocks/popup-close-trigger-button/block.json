@@ -1,0 +1,208 @@
+{
+	"name": "woolentor/popup-close-trigger-button",
+    "category": "woolentor-blocks",
+    "title": "WL: Popup Close Trigger Button",
+    "description":"Display close button for popup builder template",
+    "keywords": ["woolentor","popup","close","button"],
+    "attributes": {
+        "blockUniqId":{
+            "type": "string",
+            "default": ""
+        },
+        "areaPadding": {
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            },
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} { padding: {{areaPadding}}; }"
+            }
+        },
+        "areaBGProperty":{
+            "type": "object",
+            "default": {
+                "imageId": null,
+                "imageUrl":"",
+                "position": "",
+                "attachment": "",
+                "repeat": "",
+                "size": ""
+            },
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}}"
+            }
+        },
+        "buttonText":{
+            "type":"string",
+            "default":"Close"
+        },
+        "action":{
+            "type":"string",
+            "default":"close_popup"
+        },
+        "redirectUrl":{
+            "type":"string"
+        },
+        "buttonIcon":{
+            "type": "string"
+        },
+        "alignment":{
+            "type": "string",
+            "default": "center"
+        },
+        "iconPosition":{
+            "type": "string",
+            "default": "left"
+        },
+
+        "iconSpecing":{
+            "type": "number",
+            "default": 5,
+            "style" : {
+                "dependency": [
+                    [
+                        {
+                            "key": "buttonIcon", 
+                            "condition": "!=", 
+                            "value": ""
+                        }
+                    ]
+                ],
+                "selector":"{{WOOLENTOR_WRAPPER}} .wlpb-trigger-button { gap: {{iconSpecing}}px; }"
+            }
+        },
+        "backgroundColor":{
+            "type":"string",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} .wlpb-trigger-button{ background-color:{{backgroundColor}}; }"
+            }
+        },
+        "textColor":{
+            "type":"string",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} .wlpb-trigger-button .wlpb-trigger-button-text{ color:{{textColor}}; }"
+            }
+        },
+        "fontSize":{
+            "type":"string",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} .wlpb-trigger-button .wlpb-trigger-button-text{ font-size:{{fontSize}}; }"
+            }
+        },
+        "borderRadius": {
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            },
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} .wlpb-trigger-button{ border-radius:{{borderRadius}}; }"
+            }
+        },
+        "buttonBorder":{
+            "type":"object",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} .wlpb-trigger-button"
+            }
+        },
+        "hoverBackgroundColor":{
+            "type":"string",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} .wlpb-trigger-button:hover{ background-color:{{hoverBackgroundColor}}; }"
+            }
+        },
+        "hoverTextColor":{
+            "type":"string",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} .wlpb-trigger-button:hover .wlpb-trigger-button-text{ color:{{hoverTextColor}}; }"
+            }
+        },
+        "hoverTextBorderColor":{
+            "type":"string",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} .wlpb-trigger-button:hover .wlpb-trigger-button-text{ border-color:{{hoverTextBorderColor}}; }"
+            }
+        },
+
+        "iconBackgroundColor":{
+            "type":"string",
+            "style" : {
+                "dependency": [
+                    [
+                        {
+                            "key": "buttonIcon", 
+                            "condition": "!=", 
+                            "value": ""
+                        }
+                    ]
+                ],
+                "selector":"{{WOOLENTOR_WRAPPER}} .wlpb-trigger-button i{ background-color:{{iconBackgroundColor}}; }"
+            }
+        },
+        "iconColor":{
+            "type":"string",
+            "style" : {
+                "dependency": [
+                    [
+                        {
+                            "key": "buttonIcon", 
+                            "condition": "!=", 
+                            "value": ""
+                        }
+                    ]
+                ],
+                "selector":"{{WOOLENTOR_WRAPPER}} .wlpb-trigger-button i{ color:{{iconColor}}; }"
+            }
+        },
+        "iconFontSize":{
+            "type":"string",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} .wlpb-trigger-button i{ font-size:{{iconFontSize}}; }"
+            }
+        },
+        "iconBorderRadius": {
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            },
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} .wlpb-trigger-button i{ border-radius:{{iconBorderRadius}}; }"
+            }
+        },
+        "iconBorder":{
+            "type":"object",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} .wlpb-trigger-button i"
+            }
+        },
+        "iconPadding": {
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            },
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} .wlpb-trigger-button i{ padding:{{iconPadding}}; }"
+            }
+        }
+
+    }
+}

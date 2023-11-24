@@ -1,0 +1,478 @@
+/*
+Admin styles.
+
+Table of contents:
+==================
+1. General
+2. Tabs
+3. Repeater field
+4. Composite field
+5. Save button
+6. Sidebar Metabox Button
+*/
+
+/* 1. General
+================================================== */
+.wlpb-repeater-clone-field{
+	display: none
+}
+
+/* Hide the default switcher */
+label[id^="woolentor-default-tmp-status-popup-"]{
+    display: none;
+}
+
+.wlpb-modal .woolentor-template-edit-body {
+    height: calc(100% - 175px);
+}
+
+.wlpb-modal .woolentor-template-edit-header,
+.wlpb-modal .woolentor-template-edit-body {
+    padding: 18px 25px;
+}
+
+.wlpb-modal .woolentor-template-edit-popup {
+    max-width: 900px;
+    max-height: calc(100vh - 50px);
+    overflow: hidden;
+    display: block;
+    height: 100%;
+}
+
+.wlpb-modal .woolentor-admin-select select{
+	max-width: 100%;
+}
+
+.wlpb-button-wrapper{
+    margin-top: 15px;
+}
+
+.wlpb-modal .woolentor-admin-option-title,
+.wlpb-modal .woolentor-admin-option-text{
+	margin: 0;
+}
+
+.wlpb-modal .woolentor-admin-option {
+    align-items: center;
+}
+
+.woolentor-admin-popup.open {
+    z-index: 999999;
+}
+
+/* 2. Tabs
+======================================================= */
+.wlpb-tab-container {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    gap: 30px;
+}
+
+.wlpb-tab-container *,
+.wlpb-tab-container *::before,
+.wlpb-tab-container *::after {
+	box-sizing: border-box;
+}
+
+/* Tab Nav */
+.wlpb-tab-nav-wrap {
+	position: relative;
+
+	flex: 0 0 auto;
+
+	border-right: 1px solid #EEEEEE;
+}
+.wlpb-tab-nav {
+	display: flex;
+	flex-direction: column;
+
+	margin: 0;
+	padding: 0;
+
+	list-style-type: none;
+}
+.wlpb-tab-nav li {
+    display: inline-block;
+    margin: 0;
+    padding: 5px 0;
+	min-height: 45px;
+}
+.wlpb-tab-nav li a {
+	display: block;
+
+	padding: 10px 20px 10px 0;
+
+	text-decoration: none;
+
+	color: #666;
+	font-weight: 500;
+}
+.wlpb-tab-nav li a:focus{
+    box-shadow: none;
+    outline: none;
+}
+.wlpb-tab-nav li.wlpb-active a,
+.wlpb-tab-nav li a:hover {
+	color: #1677FF;
+}
+
+/* Tab Border */
+.wlpb-tab-border {
+	position: absolute;
+	top: 0;
+	right: -1px;
+
+	width: 2px;
+
+	transition: all 0.3s ease;
+
+	background-color: #1677FF;
+}
+
+/* Tab Content */
+.wlpb-tab-content {
+    flex: 1 0;
+    height: 100%;
+    overflow: auto;
+}
+.wlpb-tab-pane {
+	display: none;
+}
+.wlpb-tab-pane.wlpb-active {
+	display: block;
+}
+
+#wlpb-general,
+#wlpb-customize{
+    padding-right: 15px;
+}
+
+/* 3. Repeater field
+======================================================= */
+.wlpb-repeater-conditions-repeater-row-controls{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.wlpb-repeater-conditions-repeater-row-controls + .wlpb-repeater-conditions-repeater-row-controls{
+	margin-top: 10px;
+}
+.wlpb-repeater-controls-wrapper {
+    display: flex;
+    gap: 5px;
+    width: 100%;
+}
+.wlpb-repeater-controls-wrapper .woolentor-admin-select:first-child {
+    width: 100px;
+}
+.wlpb-repeater-controls-wrapper .woolentor-admin-select:not(:first-child) {
+	flex: 1;
+}
+.wlpb-modal .wlpb-repeater-fields-add{
+	background-color: #2373c6;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+.wlpb-repeater-fields-remove{
+	color: #dc3232;
+	font-size: 20px;
+	cursor: pointer;
+	cursor: pointer;
+	display: inline-block;
+	padding: 10px
+}
+
+/* 4. Composite field
+======================================================= */
+.wplb-composite-field {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    background-color: rgba(0, 0, 0, 0.02);
+    border: 1px solid #d9d9d9;
+	min-height: 48px;
+}
+
+.wplb-composite-field-inner-controls {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+}
+.wlpb-modal .woolentor-admin-switch {
+    display: inline;
+}
+
+.wplb-composite-field+.wplb-composite-field{
+	margin-top: 10px;
+}
+.wplb-composite-field-inner-control {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.wplb-composite-field-inner-control label {
+    font-size: 12px;
+}
+
+.wplb-composite-field-inner-control input, 
+.wplb-composite-field-inner-control select {
+    width: 65px;
+    border-color: #d9d9d9;
+    outline: none;
+    font-size: 12px;
+    min-height: 22px;
+}
+
+.wplb-composite-field input[type="text"]:focus,
+.wplb-composite-field input[type="number"]:focus,
+.wplb-composite-field input[type="checkbox"]:focus,
+.wplb-composite-field select:focus{
+    border-color: #2271b1;
+    box-shadow: none;
+    outline: none;
+}
+
+/* Remove arrow for the number field */
+.wplb-composite-field input[type="number"]::-webkit-outer-spin-button,
+.wplb-composite-field input[type="number"]::-webkit-inner-spin-button {
+	opacity: 0;
+}
+
+.wplb-composite-field-inner-control:hover input[type="number"]::-webkit-outer-spin-button,
+.wplb-composite-field-inner-control:hover input[type="number"]::-webkit-inner-spin-button {
+	opacity: 1;
+}
+
+.wlpb-modal .wplb-composite-field input[type=checkbox] {
+    -webkit-appearance: auto;
+    -moz-appearance: auto;
+    appearance: auto;
+}
+.wlpb-modal .wplb-composite-field input[type=checkbox]::before{
+    display: none
+}
+
+#wlpb-advanced .wplb-composite-field >div:nth-child(2) {
+    margin-right: auto;
+}
+
+#wlpb-advanced .wplb-composite-field-inner-controls.wlpb-do-not-show-again-close-count,
+#wlpb-advanced .wplb-composite-field-inner-controls.wlpb-url-match-value{
+    max-width: 200px;
+    flex: 0 0 200px;
+    min-width: 200px;
+}
+
+#wlpb-advanced .wplb-composite-field-inner-control input, 
+#wlpb-advanced .wplb-composite-field-inner-control select {
+    width: 100px;
+}
+
+/* Pro Badge */
+#wlpb-triggers fieldset,
+#wlpb-advanced fieldset {
+    border: 1px solid #ddd;
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+#wlpb-triggers legend,
+#wlpb-advanced legend {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    align-self: center;
+    margin-left: 12px;
+    padding: 3px 10px;
+    text-transform: uppercase;
+    color: #FF0000;
+    border-radius: 60px;
+    background: rgba(255, 0, 0, 0.1);
+    content: "Pro";
+}
+
+/* Pro field label*/
+.wlpb-pro-adv,
+.wlpb-pro-opacity,
+.wlpb-pro-adv .woolentor-admin-option-content,
+.wlpb-pro-adv .woolentor-admin-option-action{
+    position: relative;
+    cursor: pointer;
+}
+
+.wlpb-pro-adv .woolentor-admin-option-content,
+.wlpb-pro-adv.wplb-composite-field,
+.wlpb-pro-adv .woolentor-admin-option-action,
+.wlpb-pro-opacity{
+    opacity: 0.5;
+}
+
+/* Pointer events none */
+.wlpb-pro-opacity .woolentor-admin-switch,
+.wlpb-pro-opacity .wlpb-field,
+.wlpb-pro-opacity .woolentor-admin-select{
+    pointer-events: none;
+}
+
+.wlpb-pro-adv::before {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    align-self: center;
+    padding: 3px 10px;
+    text-transform: uppercase;
+    color: #FF0000;
+    border-radius: 60px;
+    background: rgba(255, 0, 0, 0.1);
+    content: "Pro";
+    position: absolute;
+    display: inline-block;
+    margin-left: 0;
+    top:15px;
+}
+.wlpb-close_button_vertical_position.wlpb-pro-adv::before{
+    top:10px;
+}
+.wlpb-pro-adv::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    z-index: 2;
+}
+#wlpb-general .wlpb-pro-adv{
+    padding-top: 40px;
+}
+
+#wlpb-customize .wlpb-pro-adv{
+    padding-top: 30px;
+}
+  
+.wlpb-field-on_click_selector input{
+    width: 120px;
+}
+
+/* 5. Save button
+======================================================= */
+.wlpb-modal .woolentor-template-button-group {
+    -webkit-box-pack: right;
+    -webkit-justify-content: right;
+    -ms-flex-pack: right;
+    justify-content: right;
+}
+
+.wlpb-modal .woolentor-template-button-item {
+    flex-grow: inherit;
+}
+.wlpb-modal .woolentor-template-button-item button {
+    width: 160px;
+}
+
+/* Save Button not :disabled */
+.wlpb-modal .woolentor-template-button-item button:not(:disabled),
+.wlpb-modal .woolentor-template-button-item button:not(:disabled):hover {
+	background-color: #007EFF;
+	color: #fff;
+}
+
+/* Save Button :disabled */
+.wlpb-modal .woolentor-template-button-item button:disabled {
+    color: rgba(109, 113, 117, 0.5);
+    border: 1px solid #ddd !important;
+}
+
+@keyframes wlpb-rotation {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(359deg);
+	}
+}
+
+.wlpb-modal button.updating-message::before {
+    animation: wlpb-rotation 2s infinite linear;
+    vertical-align: middle;
+    margin: 0;
+    margin-right: 3px;
+}
+
+/* 6. Sidebar Metabox Button
+======================================================= */
+.wlpb-metabox-button-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wlpb-metabox-button-wrapper button {
+    width: 100%;
+    justify-content: center;
+	height: 48px;
+}
+
+#wlpb-metabox-button-side .handle-order-higher,
+#wlpb-metabox-button-side .handle-order-lower{
+    display: none;
+}
+
+/* Select 2 */
+.wlpb-modal .select2-container {
+    min-width: 100px;
+}
+
+/* For Elementor editor */
+.wlpb-modal .select2 + .select2-container--open {
+    z-index: 99999;
+}
+
+.wlpb-modal .select2-container .select2-selection--multiple {
+    padding: 4px 25px 0px 0;border: solid #d9d9d9 1px;background-position: right 8px center;
+}
+
+.wlpb-modal .select2-search--inline {
+    display: none;
+}
+
+.wlpb-modal .select2-results__option {
+    padding: 3px 3px;
+    border-radius: 0;
+    margin: 0;
+}
+
+.wlpb-modal .select2-results__option + li {
+    margin-top: 3px;
+}
+
+.wlpb-modal .select2-container--default .select2-selection--multiple .select2-selection__choice {
+    width: auto;
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.wlpb-modal .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    position: unset;
+    background-color: unset;
+}
+
+.wlpb-modal .select2-container--default .select2-results__option--selected {
+    background-color: #e6f4ff;
+    color: rgba(0, 0, 0, 0.88);
+}
+
+.wlpb-modal .select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
+    background-color: #e6f4ff;
+    color: rgba(0, 0, 0, 0.88);
+}

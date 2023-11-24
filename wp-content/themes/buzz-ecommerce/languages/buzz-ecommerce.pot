@@ -1,0 +1,980 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Buzz Ecommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-30 12:47+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.2; wp-5.7\n"
+"X-Domain: buzz-ecommerce"
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:328
+msgid " by Automattic"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:348
+msgid " by Easy Google Fonts"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:353
+msgid " by ibericode"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:358
+msgid " by ProteusThemes"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:333
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:338
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:343
+msgid " by YITHEMES"
+msgstr ""
+
+#: spiderbuzz/hooks/woocommerce.php:318
+msgid "%  OFF"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: spiderbuzz/core/template-tags.php:62
+msgid ", "
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:392
+msgid "3"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:409
+msgid "3+Different Menu"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:399
+msgid "600+"
+msgstr ""
+
+#: index.php:49 archive.php:43 search.php:45
+msgid "<i class=\"fa fa-angle-double-left\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: index.php:50 archive.php:44 search.php:46
+msgid "<i class=\"fa fa-angle-double-right\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:36
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:120
+msgid "About"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:79
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:611
+msgid "Activate"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:573
+msgid "Active"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/banner.php:59
+msgid "Add Banner Images"
+msgstr ""
+
+#: spiderbuzz/customizer/custom-controls/repeater/class-control-repeater.php:441
+#: spiderbuzz/customizer/custom-controls/repeater/class-control-repeater.php:445
+msgid "Add File"
+msgstr ""
+
+#: spiderbuzz/customizer/custom-controls/repeater/class-control-repeater.php:405
+#: spiderbuzz/customizer/custom-controls/repeater/class-control-repeater.php:409
+msgid "Add Image"
+msgstr ""
+
+#: spiderbuzz/customizer/custom-controls/repeater/class-control-repeater.php:82
+#, php-format
+msgid "Add new %s"
+msgstr ""
+
+#: spiderbuzz/hooks/woocommerce.php:437
+msgid "Add to Compare"
+msgstr ""
+
+#: functions.php:118
+msgid "Add widgets here."
+msgstr ""
+
+#: spiderbuzz/demo-import/demo-import.php:15
+#: spiderbuzz/demo-import/demo-import.php:25
+#: spiderbuzz/demo-import/demo-import.php:35
+msgid ""
+"After you import this demo, you will have to setup the slider separately."
+msgstr ""
+
+#: spiderbuzz/customizer/customizer-callback.php:18
+#: spiderbuzz/templates/home/slider-section.php:38
+#: spiderbuzz/customizer/panels/home/slider.php:72
+msgid "ALL CATEGORYES"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:204
+msgid "All Theme Options are available via Customize screen."
+msgstr ""
+
+#: spiderbuzz/hooks/buzz-ecommerce-functions.php:54
+#: spiderbuzz/hooks/buzz-ecommerce-functions.php:55
+#: spiderbuzz/hooks/buzz-ecommerce-functions.php:56
+#, php-format
+msgid "Archive for %s"
+msgstr ""
+
+#: spiderbuzz/hooks/buzz-ecommerce-functions.php:57
+msgid "Author Archive"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/banner.php:48
+msgid "Banner Images "
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/banner.php:44
+#: spiderbuzz/customizer/panels/home/sort.php:37
+msgid "Banner Section"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/banner.php:13
+msgid "Banner Sections"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/banner.php:53
+msgid "Banners Links"
+msgstr ""
+
+#: spiderbuzz/hooks/buzz-ecommerce-functions.php:71
+msgid "Blog"
+msgstr ""
+
+#: spiderbuzz/hooks/buzz-ecommerce-functions.php:58
+msgid "Blog Archives"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:421
+msgid "Boxed layout"
+msgstr ""
+
+#: spiderbuzz/hooks/woocommerce.php:537
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr ""
+
+#: spiderbuzz/customizer/customizer-callback.php:29
+#: spiderbuzz/templates/home/product-categories.php:52
+#: spiderbuzz/templates/home/product-categories.php:90
+#: spiderbuzz/templates/home/product-categories.php:133
+#: spiderbuzz/customizer/panels/home/slider.php:101
+msgid "Buy Now"
+msgstr ""
+
+#. Name of the theme
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:384
+msgid "Buzz Ecommerce"
+msgstr ""
+
+#. Name of the template
+msgid "Buzz eCommerce Elementor Pagebuilder"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Buzz Ecommerce is a modern free WooCommerce WordPress theme created by "
+"spiderbuzz.com specially designed for shops and eCommerce sites. It could be "
+"used for all types of e-commerce online stores, including Fashion, Shoes, "
+"Jewelry, Watch, Sport, Technology, Mobile… Buzz E-commerce is easy to use "
+"and fully responsive. It comes with an eye-catching layout design that will "
+"instantly draw the attention of anyone who visits your website. The theme is "
+"translation ready. The Theme Customizer is truly a magic tool to customize "
+"the theme with pre-defined parameters, no coding is required. The main theme "
+"features: primary menu positions, search, top banner for promo, shop by "
+"category, right sidebars, custom logo, custom background, breadcrumbs, fast "
+"loading, cross-browser compatibility, font awesome, documentation, support, "
+"bootstrap grid layout. Theme including support for wishlist, quick view and "
+"compare plugins. for demo : https://spiderbuzz.com/wordpress-themes/buzz-"
+"ecommerce/"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:145
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:385
+msgid "Buzz Ecommerce Pro"
+msgstr ""
+
+#: spiderbuzz/hooks/buzz-ecommerce-functions.php:293
+msgid "Categories"
+msgstr ""
+
+#: spiderbuzz/customizer/custom-controls/repeater/class-control-repeater.php:441
+#: spiderbuzz/customizer/custom-controls/repeater/class-control-repeater.php:443
+msgid "Change File"
+msgstr ""
+
+#: spiderbuzz/customizer/custom-controls/repeater/class-control-repeater.php:405
+#: spiderbuzz/customizer/custom-controls/repeater/class-control-repeater.php:407
+msgid "Change Image"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/slider.php:82
+msgid "Change the Slider Header Text: Eg: ALL CATEGORYES"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:164
+msgid "Changelog"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:83
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:233
+msgid "Click below to translate this theme into your own language."
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/servicebox.php:53
+msgid "Click Service Box Icons And Select the Fontawesome Icons.Eg: fa fa-usd"
+msgstr ""
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: spiderbuzz/hooks/woocommerce.php:433
+msgid "Compare"
+msgstr ""
+
+#: spiderbuzz/settings/plugin-required-list.php:40
+msgid "Contact Form 7"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:439
+msgid "Contact Page"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content-single.php:39 template-parts/content.php:39
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:509
+msgid "Cosmetic Store"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:403
+msgid "Custom Archive Page Layout"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:205
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:575
+msgid "Customize"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:478
+msgid "Default"
+msgstr ""
+
+#: spiderbuzz/customizer/sections/woocommerce.php:83
+msgid "Disable Social Share"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:97
+msgid "Dismiss"
+msgstr ""
+
+#: spiderbuzz/customizer/sections/woocommerce.php:55
+msgid "Display the Shop Page Columns"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/slider.php:111
+msgid "Display the Slider Button Text Change"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:142
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:209
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:211
+msgid "Documentation"
+msgstr ""
+
+#: spiderbuzz/settings/plugin-required-list.php:35
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:347
+msgid "Easy Google Fonts"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:37 spiderbuzz/core/template-tags.php:99
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:433
+msgid "Edit The Footer Copyright Text"
+msgstr ""
+
+#: spiderbuzz/settings/plugin-required-list.php:50
+msgid "Elementor Page Builder"
+msgstr ""
+
+#: spiderbuzz/customizer/sections/woocommerce.php:84
+msgid "Enable/Disable Social Share."
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/banner.php:54
+msgid "Ex: https://www.spiderbuzz.com/banner-links."
+msgstr ""
+
+#: spiderbuzz/templates/home/service-box.php:10
+#: spiderbuzz/customizer/panels/home/servicebox.php:32
+msgid "fa fa-ambulance"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:498
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:529
+msgid "Fashion Store"
+msgstr ""
+
+#: spiderbuzz/hooks/woocommerce.php:455
+msgid "Featured"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:383
+msgid "Features"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:397
+msgid "Fonts , Fonts Size , Text Color"
+msgstr ""
+
+#: spiderbuzz/templates/home/service-box.php:11
+#: spiderbuzz/customizer/panels/home/servicebox.php:33
+msgid "FREE DELIVERY"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:156
+msgid "Free Vs Pro"
+msgstr ""
+
+#: spiderbuzz/templates/home/service-box.php:12
+#: spiderbuzz/customizer/panels/home/servicebox.php:34
+msgid "From $59.89"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home.php:11
+msgid "Front Page Settings"
+msgstr ""
+
+#. Name of the template
+msgid "Front Page Template"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/general/post-layout.php:37
+msgid "Full Width"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/general.php:11
+msgid "General Settings"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:100
+msgid "Get started with Buzz Ecommerce"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:253
+msgid "Go to Dashboard"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:253
+msgid "Go to Dashboard &rarr; Home"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:215
+msgid "Got theme support question?"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:390
+msgid "Header Section"
+msgstr ""
+
+#: spiderbuzz/customizer/custom-controls/repeater/class-control-repeater.php:369
+msgid "Hex Value"
+msgstr ""
+
+#: spiderbuzz/hooks/buzz-ecommerce-functions.php:36
+#: spiderbuzz/hooks/buzz-ecommerce-functions.php:68
+msgid "Home"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/sort.php:32
+msgid "Homepage Sort Sections"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://spiderbuzz.com"
+msgstr ""
+
+#. URI of the theme
+msgid "https://spiderbuzz.com/wordpress-themes/buzz-ecommerce/"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:620
+msgid "Install Now"
+msgstr ""
+
+#: 404.php:22
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#. %s: post title
+#: spiderbuzz/core/template-tags.php:82
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/general/post-layout.php:35
+msgid "Left Sidebar"
+msgstr ""
+
+#: spiderbuzz/customizer/custom-controls/repeater/class-control-repeater.php:237
+#, php-format
+msgid "Limit: %s rows"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: spiderbuzz/core/template-tags.php:69
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:623
+msgid "Live Preview"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/header.php:11
+msgid "Logo & Header Settings"
+msgstr ""
+
+#: spiderbuzz/templates/home/slider-section.php:138
+#: spiderbuzz/customizer/panels/home/slider.php:133
+msgid ""
+"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:352
+msgid "MailChimp for WordPress"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/slider.php:36
+msgid "Main Slider (on/off)"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:160
+msgid "More Themes"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:488
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:519
+msgid "Musical Store"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:221
+msgid "Need more features?"
+msgstr ""
+
+#: spiderbuzz/customizer/custom-controls/repeater/class-control-repeater.php:430
+#: spiderbuzz/customizer/custom-controls/repeater/class-control-repeater.php:435
+msgid "No File Selected"
+msgstr ""
+
+#: spiderbuzz/customizer/custom-controls/repeater/class-control-repeater.php:394
+#: spiderbuzz/customizer/custom-controls/repeater/class-control-repeater.php:399
+msgid "No Image Selected"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/onsell-products.php:56
+#: spiderbuzz/customizer/panels/home/products-tabs.php:85
+msgid "Number of Products"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/onsell-products.php:57
+#: spiderbuzz/customizer/panels/home/products-tabs.php:86
+msgid "Number of Products Display on Tab Section."
+msgstr ""
+
+#: spiderbuzz/customizer/sections/woocommerce.php:36
+msgid "Number of products in shop page."
+msgstr ""
+
+#: spiderbuzz/customizer/sections/woocommerce.php:122
+msgid "Number of related products columns."
+msgstr ""
+
+#: spiderbuzz/customizer/sections/woocommerce.php:103
+msgid "Number of Related Products Count."
+msgstr ""
+
+#: spiderbuzz/settings/plugin-required-list.php:45
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:357
+msgid "One Click Demo Import"
+msgstr ""
+
+#. 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/onsell-products.php:21
+msgid "ONSELL PRODUCTS"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/onsell-products.php:12
+msgid "Onsell Products"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/sort.php:39
+msgid "Onsell Products Section"
+msgstr ""
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: template-parts/content-single.php:50 template-parts/content-page.php:24
+#: template-parts/content.php:50
+msgid "Pages:"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:216
+msgid "Please put it in our dedicated support forum."
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:210
+msgid "Please view our documentation page to setup the theme."
+msgstr ""
+
+#: spiderbuzz/customizer/customizer-callback.php:8
+#: spiderbuzz/customizer/panels/home/products-tabs.php:24
+msgid "POPULOR PRODUCTS"
+msgstr ""
+
+#. %s: post author.
+#: spiderbuzz/core/template-tags.php:45
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. %s: post date.
+#: spiderbuzz/core/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. 1: list of categories.
+#: spiderbuzz/core/template-tags.php:65
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: functions.php:47
+msgid "Primary"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:168
+msgid "Pro Demo"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/onsell-products.php:31
+msgid "Products  Header Title"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/slider.php:60
+msgid "Products Categories List(on/off)"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/product-categories.php:12
+#: spiderbuzz/customizer/panels/home/product-categories.php:35
+msgid "Products Category"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/sort.php:36
+msgid "Products Category Section"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/onsell-products.php:32
+msgid "Products Header Title Display"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/products-tabs.php:65
+msgid "Products Tab Category"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/products-tabs.php:34
+msgid "Products Tab Header Title"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/products-tabs.php:35
+msgid "Products Tab Header Title Display"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/sort.php:38
+msgid "Products Tab Section"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/products-tabs.php:13
+msgid "Products Tabs"
+msgstr ""
+
+#. %s: CMS name, i.e. WordPress.
+#: footer.php:22
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: spiderbuzz/customizer/custom-controls/repeater/class-control-repeater.php:404
+#: spiderbuzz/customizer/custom-controls/repeater/class-control-repeater.php:469
+msgid "Remove"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:250
+msgid "Return to Dashboard &rarr; Updates"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:250
+msgid "Return to Updates"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/general/post-layout.php:36
+msgid "Right Sidebar"
+msgstr ""
+
+#: spiderbuzz/customizer/custom-controls/repeater/class-control-repeater.php:74
+msgid "row"
+msgstr ""
+
+#: spiderbuzz/hooks/buzz-ecommerce-functions.php:282
+msgid "Search"
+msgstr ""
+
+#: spiderbuzz/hooks/buzz-ecommerce-functions.php:59
+msgid "Search Results"
+msgstr ""
+
+#. %s: search query.
+#: search.php:22
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/products-tabs.php:98
+msgid "Section Background Images"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/banner.php:49
+msgid "Select the Banner Images."
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/product-categories.php:36
+msgid "Select the Products Category Section."
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/products-tabs.php:66
+msgid "Select the Products Tab Section Categories."
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/servicebox.php:14
+msgid "Service Box"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/servicebox.php:48
+msgid "Service Box Add"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/servicebox.php:52
+msgid "Service Box Icons"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/sort.php:35
+msgid "Service Box Section"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/servicebox.php:15
+msgid ""
+"Service Box Section is set the service title, short descriptions and "
+"fontawesome icons. Drag \"Service Item\" sort these position."
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/servicebox.php:62
+msgid "Service Box Short Desc"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/servicebox.php:57
+msgid "Service Box Title"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/servicebox.php:68
+msgid "Service Items"
+msgstr ""
+
+#: spiderbuzz/hooks/woocommerce.php:258
+msgid "Share This :"
+msgstr ""
+
+#: spiderbuzz/templates/home/slider-section.php:140
+#: spiderbuzz/customizer/panels/home/slider.php:135
+msgid "Shop Now"
+msgstr ""
+
+#: spiderbuzz/customizer/sections/woocommerce.php:35
+msgid "Shop Page Products"
+msgstr ""
+
+#: spiderbuzz/customizer/sections/woocommerce.php:54
+msgid "Shop Page Products Columns"
+msgstr ""
+
+#: spiderbuzz/customizer/sections/woocommerce.php:16
+msgid "Shop Page Settings"
+msgstr ""
+
+#: functions.php:116
+msgid "Sidebar"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/general/post-layout.php:12
+#: spiderbuzz/customizer/panels/general/post-layout.php:31
+msgid "Sidebar Layout"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/slider.php:157
+msgid "Sider Text Type Hear."
+msgstr ""
+
+#: spiderbuzz/customizer/sections/woocommerce.php:121
+msgid "Single Page Related Products Columns"
+msgstr ""
+
+#: spiderbuzz/customizer/sections/woocommerce.php:102
+msgid "Single Page Related Products Count"
+msgstr ""
+
+#: spiderbuzz/customizer/sections/woocommerce.php:64
+msgid "Single Page Settings"
+msgstr ""
+
+#: header.php:26
+msgid "Skip to content"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/slider.php:152
+msgid "Slider Add"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/slider.php:161
+msgid "Slider Button Links"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/slider.php:110
+msgid "Slider Button Text Change"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/slider.php:81
+msgid "Slider Category List Header Text Change"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/slider.php:166
+msgid "Slider Image Upload"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/slider.php:172
+msgid "Slider Item"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/slider.php:162
+msgid "Slider Links Section."
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/slider.php:15
+msgid "Slider Settings"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/slider.php:156
+msgid "Slider Text"
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/sort.php:11
+msgid "Sort Home Page Section"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/sort.php:33
+msgid "Sort or toggle home page sections."
+msgstr ""
+
+#. Author of the theme
+msgid "Spiderbuzz"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:217
+msgid "Support"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:153
+msgid "Supported Plugins"
+msgstr ""
+
+#. 1: list of tags.
+#: spiderbuzz/core/template-tags.php:72
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:451
+msgid "Team Member"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:445
+msgid "Testimonials "
+msgstr ""
+
+#: spiderbuzz/hooks/woocommerce.php:405
+msgid "The product is already in the wishlist!"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:427
+msgid "Theme Color Control in Customizer"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:203
+msgid "Theme Customizer"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:136
+msgid "Theme Demo"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:139
+msgid "Theme Details"
+msgstr ""
+
+#. 1: Theme name, 2: Theme author.
+#: footer.php:29
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:324
+msgid "This theme recommends following plugins:"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:229
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:237
+msgid "Translate"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/servicebox.php:63
+msgid "Type the service sort Desce. Eg: Online 24 hours"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/servicebox.php:58
+msgid "Type the service title. Eg: BIG SAVING"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:222
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:378
+msgid "Upgrade to PRO version for more exciting features."
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/slider.php:167
+msgid "Upload the slider image"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:271
+msgid "View changelog below:"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:223
+msgid "View PRO version"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:98
+#, php-format
+msgid ""
+"Welcome! Thank you for choosing Buzz Ecommerce! To fully take advantage of "
+"the best our theme can offer please make sure you visit our %1$s welcome "
+"page %2$s."
+msgstr ""
+
+#: spiderbuzz/settings/plugin-required-list.php:15
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:327
+msgid "WooCommerce"
+msgstr ""
+
+#: spiderbuzz/customizer/sections/woocommerce.php:10
+msgid "Woocommerce Settings"
+msgstr ""
+
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:415
+msgid "YITH Wishlist Compatible"
+msgstr ""
+
+#: spiderbuzz/settings/plugin-required-list.php:25
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:337
+msgid "YITH WooCommerce Compare"
+msgstr ""
+
+#: spiderbuzz/settings/plugin-required-list.php:20
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:332
+msgid "YITH WooCommerce Quick View"
+msgstr ""
+
+#: spiderbuzz/settings/plugin-required-list.php:30
+#: spiderbuzz/admin/class-buzz-ecommerce-admin.php:342
+msgid "YITH WooCommerce Wishlist"
+msgstr ""

@@ -1,0 +1,59 @@
+{
+	"name": "woolentor/product-qrcode",
+    "category": "woolentor-single-product",
+    "title": "WL: QR Code",
+    "description": "Display product QR Code.",
+    "keywords": ["woolentor","code","qrcode","qrcode generate","product qr code","qr code for product"],
+    "attributes": {
+        "blockUniqId":{
+            "type": "string",
+            "default": ""
+        },
+        "areaPadding": {
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            },
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} { padding: {{areaPadding}}; }"
+            }
+        },
+        "areaBGProperty":{
+            "type": "object",
+            "default": {
+                "imageId": null,
+                "imageUrl":"",
+                "position": "",
+                "attachment": "",
+                "repeat": "",
+                "size": ""
+            },
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}}"
+            }
+        },
+        "size":{
+            "type": "number",
+            "default": 150
+        },
+        "addCartUrl":{
+            "type": "boolean",
+            "default": false
+        },
+        "quantity":{
+            "type": "number",
+            "default": 1
+        },
+        "codeAlign":{
+            "type": "string",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} { text-align: {{codeAlign}} !important; }"
+            }
+        }
+    }
+}

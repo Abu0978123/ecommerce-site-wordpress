@@ -1,0 +1,2075 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=Bizz Ecommerce; plural=EXPRESSION;\n"
+"Project-Id-Version: Bizz Ecommerce\n"
+"POT-Creation-Date: 2022-03-10 14:39+0530\n"
+"PO-Revision-Date: 2019-04-09 11:22+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:26
+msgid "404"
+msgstr ""
+
+#: 404.php:27
+msgid "Oops! Page Not Found"
+msgstr ""
+
+#: 404.php:28
+msgid ""
+"Sorry but the page you are looking for is not found. Please make sure you "
+"have typed the correct URL."
+msgstr ""
+
+#: 404.php:30
+msgid "Back To Home"
+msgstr ""
+
+#: archive.php:44 template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#: customizer/background/class-bizz-ecommerce-background-image-control.php:236
+#: customizer/background/class-bizz-ecommerce-background-image-control.php:241
+msgid "Select Image"
+msgstr ""
+
+#: customizer/background/class-bizz-ecommerce-background-image-control.php:237
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:387
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:389
+msgid "Change Image"
+msgstr ""
+
+#: customizer/background/class-bizz-ecommerce-background-image-control.php:238
+#: inc/kirki/controls/php/class-kirki-control-background.php:62
+#: inc/kirki/controls/php/class-kirki-control-base.php:133
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:386
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:418
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:443
+#: inc/kirki/controls/views/image.php:37
+#: inc/kirki/field/class-kirki-field-image.php:50
+msgid "Remove"
+msgstr ""
+
+#: customizer/background/class-bizz-ecommerce-background-image-control.php:239
+#: customizer/background/class-bizz-ecommerce-background-image-control.php:283
+#: inc/kirki/controls/php/class-kirki-control-base.php:134
+#: inc/kirki/controls/views/image.php:36
+#: inc/kirki/field/class-kirki-field-image.php:49
+msgid "Default"
+msgstr ""
+
+#: customizer/background/class-bizz-ecommerce-background-image-control.php:240
+#: inc/kirki/controls/views/image.php:38
+#: inc/kirki/field/class-kirki-field-image.php:51
+msgid "No image selected"
+msgstr ""
+
+#: customizer/background/class-bizz-ecommerce-background-image-control.php:242
+msgid "Choose Image"
+msgstr ""
+
+#: customizer/background/class-bizz-ecommerce-background-image-control.php:257
+#: inc/kirki/controls/php/class-kirki-control-background.php:70
+msgid "Background Repeat"
+msgstr ""
+
+#: customizer/background/class-bizz-ecommerce-background-image-control.php:258
+#: inc/kirki/controls/php/class-kirki-control-background.php:97
+msgid "Background Size"
+msgstr ""
+
+#: customizer/background/class-bizz-ecommerce-background-image-control.php:259
+#: inc/kirki/controls/php/class-kirki-control-background.php:81
+msgid "Background Position"
+msgstr ""
+
+#: customizer/background/class-bizz-ecommerce-background-image-control.php:260
+#: inc/kirki/controls/php/class-kirki-control-background.php:113
+msgid "Background Attachment"
+msgstr ""
+
+#: customizer/background/class-bizz-ecommerce-background-image-control.php:277
+#: inc/kirki/controls/php/class-kirki-control-background.php:72
+msgid "No Repeat"
+msgstr ""
+
+#: customizer/background/class-bizz-ecommerce-background-image-control.php:278
+msgid "Tile"
+msgstr ""
+
+#: customizer/background/class-bizz-ecommerce-background-image-control.php:279
+msgid "Tile Horizontally"
+msgstr ""
+
+#: customizer/background/class-bizz-ecommerce-background-image-control.php:280
+msgid "Tile Vertically"
+msgstr ""
+
+#: customizer/background/class-bizz-ecommerce-background-image-control.php:284
+#: inc/kirki/controls/php/class-kirki-control-background.php:100
+msgid "Cover"
+msgstr ""
+
+#: customizer/background/class-bizz-ecommerce-background-image-control.php:285
+#: inc/kirki/controls/php/class-kirki-control-background.php:103
+msgid "Contain"
+msgstr ""
+
+#: customizer/background/class-bizz-ecommerce-background-image-control.php:288
+#: inc/kirki/controls/php/class-kirki-control-background.php:83
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:114
+msgid "Left Top"
+msgstr ""
+
+#: customizer/background/class-bizz-ecommerce-background-image-control.php:289
+#: inc/kirki/controls/php/class-kirki-control-background.php:84
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:115
+msgid "Left Center"
+msgstr ""
+
+#: customizer/background/class-bizz-ecommerce-background-image-control.php:290
+#: inc/kirki/controls/php/class-kirki-control-background.php:85
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:116
+msgid "Left Bottom"
+msgstr ""
+
+#: customizer/background/class-bizz-ecommerce-background-image-control.php:291
+#: inc/kirki/controls/php/class-kirki-control-background.php:86
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:117
+msgid "Right Top"
+msgstr ""
+
+#: customizer/background/class-bizz-ecommerce-background-image-control.php:292
+#: inc/kirki/controls/php/class-kirki-control-background.php:87
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:118
+msgid "Right Center"
+msgstr ""
+
+#: customizer/background/class-bizz-ecommerce-background-image-control.php:293
+#: inc/kirki/controls/php/class-kirki-control-background.php:88
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:119
+msgid "Right Bottom"
+msgstr ""
+
+#: customizer/background/class-bizz-ecommerce-background-image-control.php:294
+#: inc/kirki/controls/php/class-kirki-control-background.php:89
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:120
+msgid "Center Top"
+msgstr ""
+
+#: customizer/background/class-bizz-ecommerce-background-image-control.php:295
+#: inc/kirki/controls/php/class-kirki-control-background.php:90
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:121
+msgid "Center Center"
+msgstr ""
+
+#: customizer/background/class-bizz-ecommerce-background-image-control.php:296
+#: inc/kirki/controls/php/class-kirki-control-background.php:91
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:122
+msgid "Center Bottom"
+msgstr ""
+
+#: customizer/background/class-bizz-ecommerce-background-image-control.php:299
+#: inc/kirki/controls/php/class-kirki-control-background.php:119
+msgid "Fixed"
+msgstr ""
+
+#: customizer/background/class-bizz-ecommerce-background-image-control.php:300
+#: inc/kirki/controls/php/class-kirki-control-background.php:116
+msgid "Scroll"
+msgstr ""
+
+#: customizer/custom-customizer.php:531
+msgid "Doc"
+msgstr ""
+
+#. translators: The title.
+#: customizer/extend-customizer/class-bizz-ecommerce-wp-customize-section.php:50
+#: inc/kirki/modules/custom-sections/sections/class-kirki-sections-nested-section.php:64
+#, php-format
+msgid "Customizing &#9656; %s"
+msgstr ""
+
+#: customizer/extend-customizer/class-bizz-ecommerce-wp-customize-section.php:52
+#: inc/kirki/modules/custom-sections/sections/class-kirki-sections-nested-section.php:61
+msgid "Customizing"
+msgstr ""
+
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:70
+msgid "Free Shipping Worldwide"
+msgstr ""
+
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:71
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:77
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:83
+msgid ""
+"Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod."
+msgstr ""
+
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:76
+msgid "Money Back Guarantee"
+msgstr ""
+
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:82
+msgid "24/7 Customer Service"
+msgstr ""
+
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:97
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:103
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:109
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:115
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:121
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:127
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:133
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:139
+msgid "What do you want to know"
+msgstr ""
+
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:99
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:105
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:111
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:117
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:123
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:129
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:135
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:141
+msgid ""
+"Nulla et sodales nisl. Nam auctor quis odio eu congue. Lorem ipsum dolor "
+"sit amet, consectetur adipiscing elit."
+msgstr ""
+
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:160
+msgid "Development"
+msgstr ""
+
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:161
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:169
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:177
+msgid ""
+"Nam varius mauris eget sodales tempus. Quisque sollicitudin consectetur "
+"accumsan. Ut imperdiet mi velit, ut congue justo sagittis eget"
+msgstr ""
+
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:168
+msgid "Design"
+msgstr ""
+
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:176
+msgid "Seo"
+msgstr ""
+
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:198
+msgid "Surbhi"
+msgstr ""
+
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:199
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:216
+msgid "Business Owner"
+msgstr ""
+
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:200
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:208
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:217
+msgid ""
+"\"Nunc eu elementum libero. Etiam egestas leo eget urna ultrices, in "
+"finibus eros gravida. Donec scelerisque pulvinar dapibus. Nam pretium "
+"risus sed metus ultrices blandit. Pellentesque rhoncus est non nunc "
+"ultricies accumsan. Nullam gravida turpis et lacinia cursus. Fusce iaculis "
+"mattis consectetur.\""
+msgstr ""
+
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:206
+msgid "Nataliya"
+msgstr ""
+
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:207
+msgid "Artist"
+msgstr ""
+
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:215
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:286
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:312
+msgid "Ramedrin"
+msgstr ""
+
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:232
+msgid "Gabriel"
+msgstr ""
+
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:233
+msgid "Developer"
+msgstr ""
+
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:234
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:261
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:288
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:314
+msgid ""
+"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+msgstr ""
+
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:259
+msgid "Maurics"
+msgstr ""
+
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:260
+msgid "Marketer"
+msgstr ""
+
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:287
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:313
+msgid "Designer"
+msgstr ""
+
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:355
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:359
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:363
+#: customizer/models/class-bizz-ecommerce-defaults-models.php:367
+msgid "1008"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:24
+msgid "WordPress Default"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:39
+#: customizer/section/layout/header/main-header.php:300
+msgid "To know more go with this"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:46
+msgid "Background"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:57
+msgid "Layout"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:62
+#: customizer/register-panels-and-sections.php:317
+#: customizer/register-panels-and-sections.php:387
+msgid "Header"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:70
+#: customizer/register-panels-and-sections.php:323
+msgid "Above Header"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:78
+#: customizer/register-panels-and-sections.php:331
+msgid "Main Header"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:87
+msgid "Exclude Category"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:96 inc/admin-function.php:485
+msgid "Blog"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:103
+#: customizer/register-panels-and-sections.php:440
+msgid "Footer"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:110
+#: customizer/register-panels-and-sections.php:431 functions.php:130
+msgid "Sidebar"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:117
+msgid "Move To Top"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:124
+#: customizer/register-panels-and-sections.php:447
+msgid "Above Footer"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:132
+msgid "Widget Footer"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:140
+msgid "Below Footer"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:148
+msgid "RTL"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:157
+msgid "Preloader"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:164
+msgid "Social Icon"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:173
+msgid "Frontpage Sections"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:177
+#: customizer/register-panels-and-sections.php:524
+msgid "Top Slider"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:184
+msgid "Featured Banner"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:191
+#: customizer/register-panels-and-sections.php:532
+msgid "Woo Category"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:196
+#: customizer/register-panels-and-sections.php:548
+msgid "Tabbed Product Carousel"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:207
+#: customizer/register-panels-and-sections.php:580
+msgid "Ribbon"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:213
+msgid "Product Tab Image Carousel"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:220
+#: customizer/register-panels-and-sections.php:540
+msgid "Product Carousel"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:227
+#: customizer/register-panels-and-sections.php:572
+msgid "Banner"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:234
+#: customizer/register-panels-and-sections.php:556
+msgid "News & Blogs"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:243
+msgid "Features"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:250
+#: customizer/register-panels-and-sections.php:588
+msgid "Brand"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:257
+#: customizer/register-panels-and-sections.php:610
+msgid "Big Featured Product"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:263
+#: customizer/register-panels-and-sections.php:564
+msgid "Tabbed Product List Carousel"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:269
+msgid "First Custom Section"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:276
+msgid "Second Custom Section"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:283
+msgid "Third Custom Section"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:290
+msgid "Fourth Custom Section"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:297
+msgid "Section Ordering"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:307
+msgid "Total Color & BG Options"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:311
+msgid "Global Colors"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:339
+msgid "Below Header"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:347
+msgid "Square Icon"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:354
+#: customizer/register-panels-and-sections.php:396
+msgid "Main Menu"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:362
+#: customizer/section/layout/header/main-header.php:226
+msgid "Sticky Header"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:371
+msgid "Mobile"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:379
+msgid "Off Canvas Sidebar"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:405
+#: customizer/section/layout/header/main-header.php:314
+msgid "Category"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:413
+msgid "Search"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:421
+msgid "Shop Icon"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:455
+msgid "Footer Widget"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:463
+msgid "Bottom Footer"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:474 functions.php:287
+#: lib/texture-option/welcome.php:63
+msgid "Woocommerce"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:481
+msgid "Product"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:489
+#: inc/woocommerce/woo-function.php:50
+msgid "Shopping Cart"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:498
+msgid "Sale Badge"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:506
+#: customizer/register-panels-and-sections.php:679
+msgid "Single Product"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:517
+msgid "Frontpage"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:596
+msgid "Highlight"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:603
+msgid "Product Tab Image"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:620
+msgid "Custom Section"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:628
+msgid "Custom Section Two"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:636
+msgid "Custom Section Three"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:645
+msgid "Custom Section Four"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:654
+msgid "Pan / Mobile Menu Color"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:663
+msgid "Content Color"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:672
+msgid "Product Style"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:686
+msgid "Cart Page"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:693
+msgid "Shop Page"
+msgstr ""
+
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:164
+msgid "Add new field"
+msgstr ""
+
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:169
+msgid "Customizer Repeater"
+msgstr ""
+
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:448
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:459
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:600
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:610
+#: inc/kirki/controls/php/class-kirki-control-typography.php:221
+msgid "Color"
+msgstr ""
+
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:469
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:620
+msgid "Title"
+msgstr ""
+
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:480
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:631
+msgid "Price"
+msgstr ""
+
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:491
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:642
+msgid "Number"
+msgstr ""
+
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:501
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:653
+msgid "Subtitle"
+msgstr ""
+
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:510
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:662
+msgid "Text"
+msgstr ""
+
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:519
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:538
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:671
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:689
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:916
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:942
+msgid "Link"
+msgstr ""
+
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:529
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:680
+#: customizer/section/layout/header/main-header.php:117
+#: customizer/section/layout/header/main-header.php:123
+msgid "Button Text"
+msgstr ""
+
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:548
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:698
+msgid "Shortcode"
+msgstr ""
+
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:567
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:710
+msgid "Delete field"
+msgstr ""
+
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:782
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:872
+msgid "Icon"
+msgstr ""
+
+#. translators: Fontawesome link with full list of icons available
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:788
+msgid ""
+"Note: Some icons may not be displayed here. You can see the full list of "
+"icons at Fontawesome Website."
+msgstr ""
+
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:830
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:873
+msgid "Image"
+msgstr ""
+
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:833
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:856
+msgid "Upload Image"
+msgstr ""
+
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:853
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:874
+msgid "Logo Image"
+msgstr ""
+
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:869
+msgid "Image type"
+msgstr ""
+
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:875
+#: customizer/section/layout/header/main-header.php:105
+#: inc/kirki/controls/php/class-kirki-control-typography.php:176
+#: inc/kirki/controls/php/class-kirki-control-typography.php:192
+msgid "None"
+msgstr ""
+
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:889
+msgid "Social icons"
+msgstr ""
+
+#. translators: Fontawesome link with full list of icons available
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:894
+msgid ""
+"Note: Some icons may not be displayed here. You can see the full list of "
+"icons at Fontawesome website ."
+msgstr ""
+
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:919
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:956
+msgid "Remove Icon"
+msgstr ""
+
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:924
+#: customizer/repeater/class-bizz-ecommerce-repeater.php:962
+msgid "Add Icon"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:17
+msgid "Check to disable Category in Search Box"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:39
+msgid "Header Layout"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:83
+msgid "Menu Alignment"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:87
+#: customizer/section/layout/header/main-header.php:200
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:131
+#: inc/kirki/controls/php/class-kirki-control-typography.php:145
+#: inc/kirki/field/class-kirki-field-spacing.php:34
+msgid "Left"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:88
+msgid "center"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:89
+#: customizer/section/layout/header/main-header.php:202
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:132
+#: inc/kirki/controls/php/class-kirki-control-typography.php:157
+#: inc/kirki/field/class-kirki-field-spacing.php:35
+msgid "Right"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:101
+msgid "Right Column"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:106
+msgid "Call-To"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:107
+msgid "Button (Pro)"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:109
+msgid "Widget (Pro)"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:130
+msgid "#"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:136
+msgid "Button Link"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:145
+msgid "Call To"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:151
+msgid "Call To Text"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:158
+msgid "+1800090098"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:164
+msgid "Call To Number"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:181
+msgid "Go To Widget"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:196
+msgid "Mobile Menu"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:212
+msgid "Header Shadow"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:240
+msgid "Sticky Header Effect"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:244
+msgid "Effect One"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:245
+msgid "Effect Two"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:258
+msgid "Check to disable whislist icon in mobile device"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:270
+msgid "Check to disable account icon in mobile device"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:282
+msgid "Check to disable cart icon in mobile device"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:320
+msgid "Category Text"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:332
+msgid "Choose Categories To Exclude"
+msgstr ""
+
+#. translators: Copyright date format, see https://www.php.net/manual/datetime.format.php
+#: footer.php:93
+msgctxt "copyright date format"
+msgid "Y"
+msgstr ""
+
+#: footer.php:101
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: footer.php:102
+msgid "Powered by WordPress"
+msgstr ""
+
+#: functions.php:55 header.php:187
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:56
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:132 functions.php:144 functions.php:157
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:142
+msgid "Footer Widgets"
+msgstr ""
+
+#: functions.php:155
+msgid "WooCommerce Sidebar"
+msgstr ""
+
+#: functions.php:277
+msgid "Testerwp Ecommerce Companion (Highly Recommended)"
+msgstr ""
+
+#: functions.php:282
+msgid "One Click Demo Import"
+msgstr ""
+
+#: functions.php:293
+msgid "YITH WooCommerce Wishlist"
+msgstr ""
+
+#: header.php:60
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:199
+msgid "Menu Collapsed"
+msgstr ""
+
+#: header.php:208
+msgid "Header Close Menu"
+msgstr ""
+
+#: inc/admin-function.php:478 search.php:41
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/breadcrumbs.php:264
+msgid "Browse:"
+msgstr ""
+
+#: inc/breadcrumbs.php:265
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/breadcrumbs.php:266
+msgid "Home"
+msgstr ""
+
+#: inc/breadcrumbs.php:267
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/breadcrumbs.php:268
+msgid "Archives"
+msgstr ""
+
+#: inc/breadcrumbs.php:270
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: inc/breadcrumbs.php:272
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/breadcrumbs.php:274
+#, php-format
+msgid "Comment Page %s"
+msgstr ""
+
+#: inc/breadcrumbs.php:276
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: inc/breadcrumbs.php:278
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: inc/breadcrumbs.php:738
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: inc/breadcrumbs.php:755
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: inc/breadcrumbs.php:772
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: inc/breadcrumbs.php:788 inc/breadcrumbs.php:817 inc/breadcrumbs.php:844
+#: inc/breadcrumbs.php:871 inc/breadcrumbs.php:1211
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/breadcrumbs.php:789 inc/breadcrumbs.php:845 inc/breadcrumbs.php:1215
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: inc/breadcrumbs.php:790 inc/breadcrumbs.php:1219
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: inc/breadcrumbs.php:818
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: inc/class-wp-bootstrap-navwalker.php:365
+msgid "Add Menu"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:16
+msgid "Display Top Header"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:28
+msgid "Display Social Icons"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:47
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:601
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:66
+msgid "Twitter URL"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:85
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:620
+msgid "Instagram URL"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:104
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:639
+msgid "Linkedin URL"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:123
+msgid "Pinterest URL"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:142
+msgid "Youtube URL"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:161
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:658
+msgid "Display Social URL in new Window"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:180
+msgid "Display Contact Number"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:199
+msgid "Contact Number"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:218
+msgid "Display Address"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:237
+msgid "Address"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:256
+msgid "Display Timing"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:275
+msgid "Timing"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:298
+msgid "Read More Label"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:310
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:312
+msgid "0 length will not show the excerpt."
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:327
+msgid "Theme Layout"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:328
+msgid "Box layout will be visible at minimum 1200px display"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:333
+msgid "Wide"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:334
+msgid "Box"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:344
+msgid "Sidebar Position"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:349
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:350
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:351
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:365
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:429
+msgid "Display Author"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:377
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:441
+msgid "Display Comments Count"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:389
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:465
+msgid "Display Visit Count"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:401
+msgid "Display Date on Image"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:413
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:489
+msgid "Display Featured Image"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:453
+msgid "Display Date"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:477
+msgid "Display Tags"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:505
+msgid "Display Copyright Footer"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:517
+msgid "Team Title"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:536
+msgid "Display Logo"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:546
+msgid "Footer Logo"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:547
+msgid "upload footer logo here"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:565
+msgid "Footer Title"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:577
+msgid "Footer Description"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:589
+msgid "Display Social Icon"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:677
+msgid "Footer Separator Title"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:693
+msgid "Enable Sticky Header"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:704
+msgid "Enable Preloader"
+msgstr ""
+
+#: inc/customizer/cv-customizer-frontpage-panel-options.php:715
+msgid "Enable Scroll to Top"
+msgstr ""
+
+#: inc/customizer/cv-customizer-general-panel-options.php:12
+msgid "Checked to hide latest posts in homepage."
+msgstr ""
+
+#: inc/customizer/cv-customizer-general-panel-options.php:23
+msgid "Primary Color"
+msgstr ""
+
+#: inc/customizer/cv-customizer-panels.php:14
+msgid "General Settings"
+msgstr ""
+
+#: inc/customizer/cv-customizer-panels.php:30
+msgid "Bizz Ecommerce Theme Options"
+msgstr ""
+
+#: inc/customizer/cv-customizer-sections.php:13
+msgid "Top Header Options"
+msgstr ""
+
+#: inc/customizer/cv-customizer-sections.php:15
+msgid "Personalize the settings top header."
+msgstr ""
+
+#: inc/customizer/cv-customizer-sections.php:23
+msgid "General Options"
+msgstr ""
+
+#: inc/customizer/cv-customizer-sections.php:25
+msgid "Personalize the settings of your theme."
+msgstr ""
+
+#: inc/customizer/cv-customizer-sections.php:33
+msgid "Layout Options"
+msgstr ""
+
+#: inc/customizer/cv-customizer-sections.php:35
+msgid "Personalize the layout settings of your theme."
+msgstr ""
+
+#: inc/customizer/cv-customizer-sections.php:43
+msgid "Blog Post Options"
+msgstr ""
+
+#: inc/customizer/cv-customizer-sections.php:45
+msgid "Setting will also apply on archieve and search page."
+msgstr ""
+
+#: inc/customizer/cv-customizer-sections.php:53
+msgid "Single Post Options"
+msgstr ""
+
+#: inc/customizer/cv-customizer-sections.php:55
+msgid "Setting will apply on the content of single posts."
+msgstr ""
+
+#: inc/customizer/cv-customizer-sections.php:63
+msgid "Footer Options"
+msgstr ""
+
+#: inc/customizer/cv-customizer-sections.php:65
+msgid "Personalize the footer settings of your theme."
+msgstr ""
+
+#: inc/customizer/cv-customizer-sections.php:73
+msgid "Advance Options"
+msgstr ""
+
+#: inc/customizer/cv-customizer-sections.php:75
+msgid "Personalize the Advance settings of your theme."
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:48
+msgid "Background Color"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:54
+msgid "Background Image"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:59
+#: inc/kirki/controls/php/class-kirki-control-base.php:132
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:408
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:413
+msgid "No File Selected"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:63
+#: inc/kirki/controls/php/class-kirki-control-base.php:135
+msgid "Select File"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:73
+msgid "Repeat All"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:74
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:75
+msgid "Repeat Vertically"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:106
+msgid "Auto"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-base.php:136
+msgid "Standard Fonts"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-base.php:137
+msgid "Google Fonts"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-base.php:138
+msgid "CSS Defaults"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-base.php:139
+msgid "Default Browser Font-Family"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-dimension.php:41
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:138
+msgid "Invalid Value"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:123
+#: inc/kirki/controls/php/class-kirki-control-typography.php:102
+msgid "Font Size"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:124
+msgid "Font Weight"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:125
+#: inc/kirki/controls/php/class-kirki-control-typography.php:110
+msgid "Line Height"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:126
+msgid "Font Style"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:127
+#: inc/kirki/controls/php/class-kirki-control-typography.php:118
+msgid "Letter Spacing"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:128
+#: inc/kirki/controls/php/class-kirki-control-typography.php:126
+msgid "Word Spacing"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:129
+#: inc/kirki/field/class-kirki-field-spacing.php:32
+msgid "Top"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:130
+#: inc/kirki/field/class-kirki-field-spacing.php:33
+msgid "Bottom"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:133
+#: inc/kirki/controls/php/class-kirki-control-typography.php:151
+msgid "Center"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:134
+msgid "Size"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:135
+msgid "Spacing"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:136
+msgid "Width"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:137
+msgid "Height"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:77
+msgid "row"
+msgstr ""
+
+#. translators: %s represents the label of the row.
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:86
+#, php-format
+msgid "Add new %s"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:121
+msgid "Select a Page"
+msgstr ""
+
+#. translators: %s represents the number of rows we're limiting the repeater to allow.
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:227
+#, php-format
+msgid "Limit: %s rows"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:376
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:381
+msgid "No Image Selected"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:387
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:391
+msgid "Add Image"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:419
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:423
+msgid "Add File"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:419
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:421
+msgid "Change File"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-slider.php:67
+msgid "Reset"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-switch.php:52
+#: inc/kirki/field/class-kirki-field-switch.php:39
+msgid "On"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-switch.php:56
+#: inc/kirki/field/class-kirki-field-switch.php:40
+msgid "Off"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:82
+msgid "Font Family"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:83
+#: inc/kirki/controls/php/class-kirki-control-typography.php:88
+msgid "Select Font Family"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:87
+msgid "Backup Font"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:93
+msgid "Variant"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:134
+msgid "Text Align"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:139
+#: inc/kirki/controls/php/class-kirki-control-typography.php:181
+#: inc/kirki/controls/php/class-kirki-control-typography.php:197
+msgid "Inherit"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:163
+msgid "Justify"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:173
+msgid "Text Transform"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:177
+msgid "Capitalize"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:178
+msgid "Uppercase"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:179
+msgid "Lowercase"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:180
+#: inc/kirki/controls/php/class-kirki-control-typography.php:196
+msgid "Initial"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:189
+msgid "Text Decoration"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:193
+msgid "Underline"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:194
+msgid "Overline"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:195
+msgid "Line-Through"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:205
+msgid "Margin Top"
+msgstr ""
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:213
+msgid "Margin Bottom"
+msgstr ""
+
+#: inc/kirki/controls/views/image.php:34
+#: inc/kirki/controls/views/image.php:39
+#: inc/kirki/field/class-kirki-field-image.php:47
+#: inc/kirki/field/class-kirki-field-image.php:52
+msgid "Select image"
+msgstr ""
+
+#: inc/kirki/controls/views/image.php:35
+#: inc/kirki/field/class-kirki-field-image.php:48
+msgid "Change image"
+msgstr ""
+
+#: inc/kirki/controls/views/image.php:40
+#: inc/kirki/field/class-kirki-field-image.php:53
+msgid "Choose image"
+msgstr ""
+
+#. translators: %s represents the field ID where the error occurs.
+#: inc/kirki/core/class-kirki-field.php:248
+#, php-format
+msgid "Typo found in field %s - setting instead of settings."
+msgstr ""
+
+#. translators: %1$s represents the field ID where the error occurs. %2$s is the URL in the documentation site.
+#: inc/kirki/core/class-kirki-field.php:257
+#: inc/kirki/core/class-kirki-field.php:267
+#, php-format
+msgid ""
+"Config not defined for field %1$s - See %2$s for details on how to "
+"properly add fields."
+msgstr ""
+
+#. translators: %1$s represents the field ID where the error occurs.
+#: inc/kirki/core/class-kirki-field.php:358
+#, php-format
+msgid "Typo found in field %s - \"theme_mods\" vs \"theme_mod\""
+msgstr ""
+
+#. translators: %1$s represents the field ID where the error occurs.
+#: inc/kirki/core/class-kirki-field.php:375
+#, php-format
+msgid "\"partial_refresh\" invalid entry in field %s"
+msgstr ""
+
+#. translators: The field ID where the error occurs.
+#: inc/kirki/core/class-kirki-field.php:498
+#: inc/kirki/core/class-kirki-field.php:509
+#, php-format
+msgid ""
+"\"output\" invalid format in field %s. The \"output\" argument should be "
+"defined as an array of arrays."
+msgstr ""
+
+#: inc/kirki/core/class-kirki-init.php:289
+msgid ""
+"We detected you're using Kirki_Init::get_variables(). Please use "
+"Kirki_Util::get_variables() instead."
+msgstr ""
+
+#: inc/kirki/core/class-kirki-init.php:365
+msgid ""
+"Your theme uses a Font Awesome field for icons. To avoid issues with "
+"missing icons on your frontend we recommend you install the official Font "
+"Awesome plugin."
+msgstr ""
+
+#: inc/kirki/core/class-kirki-init.php:368
+msgid "Install Plugin"
+msgstr ""
+
+#: inc/kirki/core/class-kirki-init.php:369
+msgid "Don't show this again"
+msgstr ""
+
+#: inc/kirki/core/class-kirki.php:237
+msgid ""
+"Kirki fields should not be added on customize_register. Please add them "
+"directly, or on init."
+msgstr ""
+
+#: inc/kirki/deprecated/functions.php:19
+#, php-format
+msgid "%1$s or %2$s"
+msgstr ""
+
+#: inc/kirki/field/class-kirki-field-color.php:52
+msgid ""
+"Do not use \"alpha\" as an argument in color controls. Use "
+"\"choices[alpha]\" instead."
+msgstr ""
+
+#. translators: %1$s represents the field ID where the error occurs. %2%s is buttonset/image.
+#: inc/kirki/field/class-kirki-field-radio.php:37
+#, php-format
+msgid ""
+"Error in field %1$s. The \"mode\" argument has been deprecated since Kirki "
+"v0.8. Use the \"radio-%2$s\" type instead."
+msgstr ""
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:198
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:199
+msgid "Ultra-Light 100"
+msgstr ""
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:200
+msgid "Ultra-Light 100 Italic"
+msgstr ""
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:201
+msgid "Light 200"
+msgstr ""
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:202
+msgid "Light 200 Italic"
+msgstr ""
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:203
+msgid "Book 300"
+msgstr ""
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:204
+msgid "Book 300 Italic"
+msgstr ""
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:205
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:206
+msgid "Normal 400"
+msgstr ""
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:207
+msgid "Normal 400 Italic"
+msgstr ""
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:208
+msgid "Medium 500"
+msgstr ""
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:209
+msgid "Medium 500 Italic"
+msgstr ""
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:210
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:211
+msgid "Semi-Bold 600"
+msgstr ""
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:212
+msgid "Semi-Bold 600 Italic"
+msgstr ""
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:213
+msgid "Bold 700"
+msgstr ""
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:214
+msgid "Bold 700 Italic"
+msgstr ""
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:215
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:216
+msgid "Extra-Bold 800"
+msgstr ""
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:217
+msgid "Extra-Bold 800 Italic"
+msgstr ""
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:218
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:219
+msgid "Ultra-Bold 900"
+msgstr ""
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:220
+msgid "Ultra-Bold 900 Italic"
+msgstr ""
+
+#: inc/kirki/upgrade-notifications.php:30
+msgid "Important Upgrade Notice:"
+msgstr ""
+
+#. translators: %s: post date.
+#: inc/template-tags.php:30
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. translators: %s: post author.
+#: inc/template-tags.php:46
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:63
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:66
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:70
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:73
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:83
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:100 template-parts/content-page.php:39
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/woocommerce/quick-view/quick-view-product-image.php:51
+msgid "Placeholder"
+msgstr ""
+
+#: inc/woocommerce/woo-core.php:250
+msgid "No more products to show."
+msgstr ""
+
+#: inc/woocommerce/woo-core.php:362
+msgid "Quick View"
+msgstr ""
+
+#: inc/woocommerce/woo-core.php:591 inc/woocommerce/woo-core.php:593
+msgid "Load More"
+msgstr ""
+
+#: inc/woocommerce/woo-function.php:27 inc/woocommerce/woo-function.php:79
+msgid "View your shopping cart"
+msgstr ""
+
+#: inc/woocommerce/woo-function.php:51
+msgid "close"
+msgstr ""
+
+#: inc/woocommerce/woo-function.php:58
+msgid "Return to shop"
+msgstr ""
+
+#: inc/woocommerce/woo-function.php:280
+msgid "Meta Information"
+msgstr ""
+
+#: inc/woocommerce/woo-function.php:412
+msgid "Account"
+msgstr ""
+
+#: inc/woocommerce/woo-function.php:415
+msgid "Register"
+msgstr ""
+
+#: inc/woocommerce/woo-function.php:464 inc/woocommerce/woo-function.php:492
+msgid "No categories"
+msgstr ""
+
+#: inc/woocommerce/woocommerce-ajax.php:29
+#, php-format
+msgid "<span class=\"count-item\">%d <span class=\"item\">item</span></span>"
+msgid_plural ""
+"<span class=\"count-item\">%d <span class=\"item\">items</span></span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %1$s: theme name, %2$s theme version
+#: lib/texture-option/notify.php:70
+#, php-format
+msgid "Welcome to %1$s - Version %2$s"
+msgstr ""
+
+#: lib/texture-option/notify.php:75
+#, php-format
+msgid "Get Started with %1$s and Start customizing your website."
+msgstr ""
+
+#: lib/texture-option/notify.php:82
+#, php-format
+msgid "Get Started with %1$s"
+msgstr ""
+
+#: lib/texture-option/sidebar.php:3
+msgid "Leave us a review"
+msgstr ""
+
+#: lib/texture-option/sidebar.php:4
+msgid "We would love to hear your feedback."
+msgstr ""
+
+#: lib/texture-option/sidebar.php:5
+msgid "Submit review"
+msgstr ""
+
+#: lib/texture-option/sidebar.php:11
+msgid "Video Tutorials"
+msgstr ""
+
+#: lib/texture-option/sidebar.php:12
+msgid ""
+"Want a guide? We have video tutorials to walk you through getting started."
+msgstr ""
+
+#: lib/texture-option/sidebar.php:13
+msgid "Watch Videos"
+msgstr ""
+
+#: lib/texture-option/sidebar.php:18
+msgid "Support"
+msgstr ""
+
+#: lib/texture-option/sidebar.php:19
+msgid ""
+"Have a question, we are happy to help! Get in touch with our support team."
+msgstr ""
+
+#: lib/texture-option/sidebar.php:20
+msgid "Submit a Ticket"
+msgstr ""
+
+#: lib/texture-option/tab-html.php:31
+msgid "FREE THEME"
+msgstr ""
+
+#: lib/texture-option/tab-html.php:35
+msgid "Welcome"
+msgstr ""
+
+#: lib/texture-option/tab-html.php:36
+msgid "Recommended Plugin"
+msgstr ""
+
+#: lib/texture-option/tab-html.php:37
+msgid "Demo Import"
+msgstr ""
+
+#: lib/texture-option/tab-html.php:74
+msgid "Click Here To Import Demo Content"
+msgstr ""
+
+#: lib/texture-option/tab-html.php:76
+msgid ""
+"You need to Install required plugins like- Wptexture Customizer, "
+"WooCommerce and One click demo import plugin. After installing required "
+"plugins import button will activate."
+msgstr ""
+
+#: lib/texture-option/tab-html.php:77
+msgid "Import Demo"
+msgstr ""
+
+#: lib/texture-option/texture-option.php:13
+msgid "Bizz Ecommerce Options"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+#: lib/texture-option/texture-option.php:14
+msgid "Bizz Ecommerce"
+msgstr ""
+
+#. Author of the plugin/theme
+#: lib/texture-option/texture-option.php:46
+msgid "wptexture"
+msgstr ""
+
+#: lib/texture-option/texture-option.php:48
+#, php-format
+msgid "Welcome To %1s Theme"
+msgstr ""
+
+#: lib/texture-option/texture-option.php:74
+msgid "Home Page"
+msgstr ""
+
+#: lib/texture-option/texture-option.php:113
+msgid "No plugin specified"
+msgstr ""
+
+#: lib/texture-option/texture-option.php:134
+msgid "Plugin Successfully Activated"
+msgstr ""
+
+#: lib/texture-option/texture-option.php:148
+msgid "Details & Version"
+msgstr ""
+
+#: lib/texture-option/texture-option.php:175
+msgid "Activated"
+msgstr ""
+
+#: lib/texture-option/texture-option.php:180
+msgid "Install Now"
+msgstr ""
+
+#: lib/texture-option/texture-option.php:202
+msgid "Activate Now"
+msgstr ""
+
+#: lib/texture-option/welcome.php:4
+msgid "1. Install Recommended Plugins"
+msgstr ""
+
+#: lib/texture-option/welcome.php:5
+msgid ""
+"We highly Recommend to install Testerwp Ecommerce Companion plugin to get "
+"all customization options in Bizz Ecommerce theme. Also install "
+"recommended plugins available in recommended tab."
+msgstr ""
+
+#: lib/texture-option/welcome.php:8
+msgid "2. Setup Home Page"
+msgstr ""
+
+#: lib/texture-option/welcome.php:9
+msgid ""
+"To set up the HomePage in Bizz Ecommerce theme, Just follow the below "
+"given Instructions."
+msgstr ""
+
+#: lib/texture-option/welcome.php:10
+msgid ""
+"Go to Wp Dashboard > Pages > Add New > Create a Page using “Homepage "
+"Template” available in Page attribute."
+msgstr ""
+
+#: lib/texture-option/welcome.php:11
+msgid ""
+"Now go to Settings > Reading > Your homepage displays > A static page "
+"(select below) and set that page as your homepage."
+msgstr ""
+
+#: lib/texture-option/welcome.php:16
+msgid "Home Page Activated"
+msgstr ""
+
+#: lib/texture-option/welcome.php:21
+msgid "Set Home Page"
+msgstr ""
+
+#: lib/texture-option/welcome.php:38
+msgid "Go to Doc"
+msgstr ""
+
+#: lib/texture-option/welcome.php:47
+msgid "3. Customize Your Website"
+msgstr ""
+
+#: lib/texture-option/welcome.php:49
+msgid ""
+"Bizz Ecommerce theme support live customizer for home page set up. "
+"Everything visible at home page can be changed through customize panel"
+msgstr ""
+
+#: lib/texture-option/welcome.php:51
+msgid "Start Customize"
+msgstr ""
+
+#: lib/texture-option/welcome.php:57
+msgid "4. Customizer Links"
+msgstr ""
+
+#: lib/texture-option/welcome.php:61
+msgid "Upload Logo"
+msgstr ""
+
+#: lib/texture-option/welcome.php:69
+msgid "FrontPage Sections"
+msgstr ""
+
+#: lib/texture-option/welcome.php:72
+msgid "Footer Section"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:25
+msgid "Pages:"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Description"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Homepage Template"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Width Page"
+msgstr ""

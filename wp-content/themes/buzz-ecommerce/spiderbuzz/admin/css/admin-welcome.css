@@ -1,0 +1,115 @@
+.about-wrap h1 {
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.welcome-description-wrap {
+    display: inline-block;
+    width: 100%;
+    margin: 20px 0;
+}
+.buzz-ecommerce-screenshot {
+    margin: 0 10px 20px 10px;
+    width: 47%;
+    float: left;
+}
+.about-wrap img {
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+
+.welcome-description-wrap div.about-text {
+    margin: 20px 10px;
+    width: 41%;
+    float: left;
+}
+
+.welcome-description-wrap div.buzz-ecommerce-screenshot {
+    width: 50%;
+    float: right;
+}
+.wrap table {
+    border: 1px solid #e1e1e1;
+    border-collapse: collapse;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.wrap table th {
+    background-color: #b71de4;
+    width: 33%;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.wrap table th:first-child {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+.wrap table th:last-child {
+    background-color: #228B9B;
+}
+.about-wrap table .table-feature-title > h3 {
+    color: #404040;
+}
+.wrap table th h3 {
+    color: #fff;
+    margin: 15px;
+}
+.about-wrap h3 {
+    margin: 1.25em 0 .6em;
+    font-size: 1.4em;
+    line-height: 1.5;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+td {
+    text-align: center;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+}
+.about-wrap table td h3 {
+    font-size: 17px;
+    margin: 20px;
+    padding-left: 20px;
+    text-align: left;
+}
+tr:nth-child(2n) {
+    background-color: #e9e9e9;
+}
+.wrap table td .dashicons.dashicons-no {
+    color: #CE2D2D;
+}
+.wrap table td .dashicons.dashicons-yes {
+    color: #24B37E;
+}
+
+h3.buzz-ecommerce-pro-header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+.theme-browser {
+    margin-top: 15px;
+}

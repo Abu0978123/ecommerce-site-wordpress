@@ -1,0 +1,269 @@
+body.wlpb-disable-scroll {
+	overflow: hidden;
+}
+
+.wlpb-popup .wlpb-d-none{
+	display: none;
+}
+
+.wlpb-popup *,
+.wlpb-popup *::after,
+.wlpb-popup *::before {
+	box-sizing: border-box;
+}
+
+.wlpb-popup {
+	position: fixed;
+	z-index: 999999;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: none;
+	transition: all 0.5s ease 0s;
+}
+
+.elementor-editor-active .wlpb-popup{
+	display: block;
+}
+
+.wlpb-popup-open {
+	display: block;
+}
+
+.wlpb-popup-inner {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	transition: all 0.5s ease 0s;
+}
+
+body.admin-bar .wlpb-popup-pv-top .wlpb-popup-inner{
+	top: 32px;
+}
+
+.wlpb-popup-overlay,
+.wlpb-elementor-popup-editor-overlay {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.wlpb-popup-overlay.wlpb-popup-open {
+	opacity: 1;
+}
+
+.wlpb-popup-container {
+	position: relative;
+	z-index: 1;
+	overflow: auto;
+	max-height: 100%;
+}
+
+.wlpb-popup-container-inner {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 100%;
+	padding: 30px;
+	background-color: #FFFFFF;
+}
+
+.wlpb-popup-container-inner > div {
+    width: 100%;
+}
+
+.wlpb-popup-close-btn {
+	position: absolute;
+	z-index: 9;
+	top: 10px;
+	right: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 30px;
+	height: 30px;
+	padding: 0;
+	cursor: pointer;
+	transition: all 0.5s ease 0s;
+	color: #868685;
+	border: none;
+	background-color: transparent;
+}
+
+.wlpb-popup-close-btn:hover {
+	transform: scale(1.14);
+	color: #000000;
+}
+
+.wlpb-popup .animate__animated {
+	-webkit-animation-delay: var(--animate-delay);
+	animation-delay: var(--animate-delay);
+}
+
+.wlpb-popup-modal {
+	position: fixed;
+}
+
+.wlpb-popup-modal .wlpb-popup-inner {
+	position: fixed;
+}
+
+.wlpb-popup-modal .wlpb-popup-container {
+	width: 600px;
+}
+
+.wlpb-popup-bar {
+	position: absolute;
+	top: auto;
+	bottom: auto;
+}
+
+.wlpb-popup-bar .wlpb-popup-inner {
+	position: static;
+}
+
+.wlpb-popup-bar .wlpb-popup-overlay {
+	visibility: hidden;
+}
+
+.wlpb-popup-bar .wlpb-popup-container {
+	width: 100%;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.wlpb-popup-bar-float {
+	position: fixed;
+}
+
+.wlpb-popup-bar-top {
+	top: 0;
+	bottom: auto;
+}
+
+.wlpb-popup-bar-bottom {
+	top: auto;
+	bottom: 0;
+}
+
+.wlpb-popup-pv-top {
+	align-items: flex-start;
+}
+
+.wlpb-popup-pv-bottom {
+	align-items: flex-end;
+}
+
+.wlpb-popup-pv-center {
+	align-items: center;
+}
+
+.wlpb-popup-ph-left {
+	justify-content: flex-start;
+}
+
+.wlpb-popup-ph-right {
+	justify-content: flex-end;
+}
+
+.wlpb-popup-ph-center {
+	justify-content: center;
+}
+
+
+/* Elementor editor */
+.wlpb-elementor-popup-editor {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: transparent;
+    overflow-y: auto;
+    background: #fff;
+}
+
+.wlpb-elementor-popup-editor-content{
+	position: relative; 
+}
+
+.wlpb-elementor-popup-editor-content-wrapper {
+    width: 1140px;
+}
+
+.wlpb-popup-container-inner .elementor-edit-area-active .elementor-section-wrap:not(:empty) + #elementor-add-new-section{
+	display: none;
+}
+
+.wlpb-elementor-popup-editor-overlay{
+	opacity: 1;
+}
+
+/* Trigger button shortcode */
+.wlpb-trigger-button-wrapper {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.wlpb-trigger-button {
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+	display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wlpb-trigger-button-align-left {
+	text-align: left;
+}
+
+.wlpb-trigger-button-align-center {
+	text-align: center;
+}
+
+.wlpb-trigger-button-align-right {
+	text-align: right;
+}
+
+.wlpb-trigger-button:hover {
+    background-color: #0059b3;
+}
+
+.wlpb-trigger-button-icon {
+    margin-right: 5px;
+}
+
+.wlpb-trigger-button-button-left {
+    text-align: left;
+}
+
+.wlpb-trigger-button-button-center {
+    text-align: center;
+}
+
+.wlpb-trigger-button-button-right {
+    text-align: right;
+}
+.wlpb-trigger-button p {
+    margin: 0;
+}
